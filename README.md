@@ -34,3 +34,6 @@ The LED is turned on when the alarm is active.
 
 ### Loxone communication
 In Loxone I have setup UDP inputs and outputs to keep the Central Alarm block in sync with my setup.
+
+### HttpWebserver
+This project is added because I initially used it for Loxone communication but no longer use it. It can be enabled and used for monitoring if necessary.
