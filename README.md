@@ -17,7 +17,7 @@ The setup is as follows:
 | PIN 8 (Row 4)              | GPIO 26 (pin 37)   |
 
 ### Tweet setup
-The tweeter plays a specific sound when the alarm is armed and disarmed
+The tweeter plays a specific sound when the alarm is armed and disarmed.    
 
 | Tweeter PIN | Raspberry Pi 3 PIN |
 |-------------|--------------------|
@@ -25,7 +25,7 @@ The tweeter plays a specific sound when the alarm is armed and disarmed
 | -           | Ground (pin 6)     |
 
 ### LED setup
-The LED is turned on when the alarm is active.
+The LED is turned on when the alarm is active.    
 
 | LED PIN     | Resistor | Raspberry Pi 3 PIN |
 |-------------|----------|--------------------|
