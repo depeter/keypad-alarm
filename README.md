@@ -17,10 +17,18 @@ The setup is as follows:
 | PIN 8 (Row 4)              | GPIO 26 (pin 37)   |
 
 ### Tweet setup
+The tweeter plays a specific sound when the alarm is armed and disarmed
 | Tweeter PIN | Raspberry Pi 3 PIN |
 |-------------|--------------------|
 | +           | GPIO 4 (pin 7)     |
 | -           | Ground (pin 6)     |
+
+### LED setup
+The LED is turned on when the alarm is active.
+| LED PIN     | Resistor | Raspberry Pi 3 PIN |
+|-------------|----------|--------------------|
+| long leg    | 330 Ohm  | GPIO 18 (pin 12)   |
+| short leg   |          | Ground  (pin 14)   |
 
 ### Loxone communication
 In Loxone I have setup UDP inputs and outputs to keep the Central Alarm block in sync with my setup.
