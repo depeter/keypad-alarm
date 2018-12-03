@@ -2,7 +2,7 @@
 This project connects a 4x4 keypad module to a raspberry pi.
 
 The setup is as follows:
-![setup image](https://raw.githubusercontent.com/depeter/keypad-alarm/master/setup.jpg "setup image")
+![setup image](https://raw.githubusercontent.com/depeter/keypad-alarm/master/setup.jpeg "setup image")
 
 ### Keypad setup
 | Leypad PIN (Left to Right) | Raspberry Pi 3 PIN |
