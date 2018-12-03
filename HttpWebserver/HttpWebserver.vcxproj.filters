@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>a2ceec7a-31cd-4c6d-baf6-36eb26827e4b</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="HelpClasses">
+      <UniqueIdentifier>{efd01b78-0969-4ca2-8fb0-fd2731e6dfb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DetailClasses">
+      <UniqueIdentifier>{cffdbc77-ef25-4b45-bbca-7198e55cf73b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Cookie.cpp" />
+    <ClCompile Include="RequestEventArgs.cpp" />
+    <ClCompile Include="WebServer.cpp" />
+    <ClCompile Include="DataHenter.cpp">
+      <Filter>HelpClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="FormFile.cpp">
+      <Filter>DetailClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="FormData.cpp">
+      <Filter>DetailClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpCredential.cpp">
+      <Filter>DetailClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpRequest.cpp">
+      <Filter>DetailClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpResponse.cpp">
+      <Filter>DetailClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiPartData.cpp">
+      <Filter>HelpClasses</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Cookie.h" />
+    <ClInclude Include="FileTypes.h" />
+    <ClInclude Include="RequestEventArgs.h" />
+    <ClInclude Include="RequestMethods.h" />
+    <ClInclude Include="WebServer.h" />
+    <ClInclude Include="DataHenter.h">
+      <Filter>HelpClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="FormData.h">
+      <Filter>DetailClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="FormFile.h">
+      <Filter>DetailClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpCredential.h">
+      <Filter>DetailClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpRequest.h">
+      <Filter>DetailClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpResponse.h">
+      <Filter>DetailClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiPartData.h">
+      <Filter>HelpClasses</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

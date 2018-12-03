@@ -1,0 +1,13 @@
+﻿  pch.cpp
+  Cookie.cpp
+  DataHenter.cpp
+  FormData.cpp
+  FormFile.cpp
+  HttpCredential.cpp
+  HttpRequest.cpp
+  HttpResponse.cpp
+  MultiPartData.cpp
+  RequestEventArgs.cpp
+  WebServer.cpp
+     Creating library D:\git\PM Consulting\alarm\pikeypad\CS_Universal_App\ARM\Debug\HttpWebserver\HttpWebserver.lib and object D:\git\PM Consulting\alarm\pikeypad\CS_Universal_App\ARM\Debug\HttpWebserver\HttpWebserver.exp
+  HttpWebserver.vcxproj -> D:\git\PM Consulting\alarm\pikeypad\CS_Universal_App\ARM\Debug\HttpWebserver\HttpWebserver.dll

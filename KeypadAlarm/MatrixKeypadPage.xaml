@@ -1,0 +1,37 @@
+﻿<Page
+    x:Class="MatrixKeypad.MatrixKeypadPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MatrixKeypad"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Border BorderBrush="Blue" BorderThickness="5,5,2.5,5" Grid.Row="0" Grid.Column="0" >
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <SwapChainPanel BorderBrush="Blue" BorderThickness="5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                    <TextBox x:Name="Log" PlaceholderText="This is where log messages will be displayed" Foreground="Black" FontFamily="Monospace" Margin="20"/>
+                </SwapChainPanel>
+                <StackPanel Orientation="Horizontal" Grid.Row="1" Margin="5,0">
+                    <TextBlock Text="Current Status:" Foreground="Red" VerticalAlignment="Center"/>
+                    <TextBox BorderBrush="Red" BorderThickness="5" Width="150" Margin="5,0"/>
+                    <Button Margin="0" Content="EnableAlarm" x:Name="EnableAlarm" Click="EnableAlarm_OnClick" />
+                    <Button Margin="0" Content="DisableAlarm" x:Name="DisableAlarm" Click="DisableAlarm_OnClick" />
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Grid>
+</Page>
+
